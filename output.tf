@@ -13,5 +13,9 @@ output "aws_database_subnet_id" {
     value = aws_subnet.database[*].id
   
 }
+output "someupdate" {
+    value = "installed"
+  
+}
 
 
